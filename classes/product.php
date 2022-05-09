@@ -1,7 +1,4 @@
 <?php 
-    include_once __DIR__ . "./food.php";
-    include_once __DIR__ . "./toys.php";
-    include_once __DIR__ . "./dogKennel.php";
     class Prodotti {
         protected $price;
         protected $quantity;

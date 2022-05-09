@@ -1,5 +1,5 @@
 <?php 
-    include_once __DIR__ . "./product.php";
+    include_once __DIR__ . "/product.php";
 
 class Food extends Prodotti{
     protected $FoodName;
@@ -22,6 +22,4 @@ class Food extends Prodotti{
         return $this->FoodExpiry;
     }
 }
-$croccantini = new Food ("Croccantini Magici", "cane", 01-23, 12.99, 24, 0);
-
 ?>

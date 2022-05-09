@@ -1,8 +1,11 @@
 <?php 
     include_once __DIR__ . "./classes/product.php";
-    include_once __DIR__ . "./classes/food.php";
-    include_once __DIR__ . "./classes/toys.php";
-    include_once __DIR__ . "./classes/dogKennel.php";
+    include_once __DIR__ . "/classes/food.pp";
+    include_once __DIR__ . "/classes/toys.hp";
+    include_once __DIR__ . "/classes/dogKnnel.php";
+
+$croccantini = new Food ("Croccantini Magici", "cane", 2023, 12.99, 24, 0);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,7 +18,10 @@
 <body>
     <main>
         <span>
-            <?php  var_dump($croccantini); ?>
+            <?php  
+                var_dump($croccantini);
+                echo $croccantini-> getFoodExpiry();            
+            ?>
         </span>
     </main>
 </body>

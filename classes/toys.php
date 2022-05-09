@@ -1,5 +1,5 @@
 <?php 
-    include_once __DIR__ . "./product.php";
+    include_once __DIR__ . "/product.php";
 
 class Toys extends Prodotti{
     protected $toysName;
@@ -8,8 +8,8 @@ class Toys extends Prodotti{
         parent ::__construct($price, $quantity, $discount);
         $this-> toysName = $toysName;
     }
-    public function setToysName(){
-        return $this->toysName;
+    public function setToysName($toysName){
+        return $this->toysName = $toysName;
     }
 }
 
