@@ -4,6 +4,8 @@
     include_once __DIR__ . "/classes/toys.php";
 
 $croccantini = new Food ("Croccantini Magici", "cane", 2023, 12.99, 24, 0);
+$ossoGiocattolo = new Toys ("Osso Giocattolo", 12.99, 24, 0);
+
 
 ?>
 <!DOCTYPE html>
@@ -19,6 +21,11 @@ $croccantini = new Food ("Croccantini Magici", "cane", 2023, 12.99, 24, 0);
         <pre>
             <?php  
                 var_dump($croccantini);
+            ?>
+        </pre>
+        <pre>
+            <?php  
+                var_dump($ossoGiocattolo);
             ?>
         </pre>
     </main>
