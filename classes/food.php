@@ -22,5 +22,6 @@ class Food extends Prodotti{
         return $this->FoodExpiry;
     }
 }
+$croccantini = new Food ("Croccantini Magici", "cane", 01-23, 12.99, 24, 0);
 
 ?>

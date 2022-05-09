@@ -3,7 +3,6 @@
     include_once __DIR__ . "./classes/food.php";
     include_once __DIR__ . "./classes/toys.php";
     include_once __DIR__ . "./classes/dogKennel.php";
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -14,6 +13,10 @@
     <title>PHP OOP 2</title>
 </head>
 <body>
-    
+    <main>
+        <span>
+            <?php  var_dump($croccantini); ?>
+        </span>
+    </main>
 </body>
 </html>
