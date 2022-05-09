@@ -1,5 +1,5 @@
 <?php 
-    include_once __DIR__ . "/product.php";
+    require_once __DIR__ . "/product.php";
 
 class Toys extends Prodotti{
     protected $toysName;

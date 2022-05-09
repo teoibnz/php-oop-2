@@ -8,7 +8,7 @@
 
         $this-> price = $price;
         $this-> quantity = $quantity;
-        $this->discount = $discount;
+        $this-> discount = $discount;
     }
         public function setPrice(){
             return $this->price;
